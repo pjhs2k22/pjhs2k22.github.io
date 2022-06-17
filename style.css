@@ -330,6 +330,14 @@ section.photo-section .wrapper h2 {
     display: none;
 }
 
+.photo-button button#more-photo4 {
+    display: none;
+}
+
+.photo-button button#more-photo5 {
+    display: none;
+}
+
 .photo-button button#less-photo {
     display: none;
 }
@@ -344,6 +352,7 @@ section.timeline-section .wrapper h2 {
 
 section.timeline-section .wrapper h3 {
     color: #2F433D;
+    text-align: center;
 }
 
 .timeline-wrapper {
@@ -364,6 +373,16 @@ section.timeline-section .wrapper h3 {
     color: #2F433D;
     padding: 0 25px;
     margin: 10px 0;
+}
+
+.timeline-container .date {
+    text-align: right;
+    margin: 0 10px;
+}
+
+.timeline-container .timeline {
+    text-align: left;
+    margin: 0 10px;
 }
 
 footer {
@@ -490,7 +509,11 @@ footer p {
     }
 
     .timeline-container .timeline {
-        margin: 0 15px 10px;
+        margin: 0 25px 10px;
+    }
+
+    .timeline-container .date {
+        text-align: left;
     }
 }
 
