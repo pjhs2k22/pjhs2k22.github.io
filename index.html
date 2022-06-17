@@ -40,7 +40,7 @@
                     </div>
                     <div class="text">
                         <h1>Kelulusan SMP Pandu Bandung 2022</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sapien risus, ultricies sit amet nisi nec, dignissim tristique mauris. Aenean convallis euismod lobortis. In rutrum porttitor diam, ut ornare metus venenatis eget. Sed tristique est ut turpis volutpat aliquam.</p>
+                        <p>Laman situs ini merupakan portofolio Yermeyahu Ariel Minwary. Laman situs ini dibuat dalam waktu 1 minggu, dengan beberapa bantuan dari beberapa teman sebagai bug finder.</p>
                     </div>
                 </div>
                 <div class="line"><div class="line2"></div></div>
@@ -51,7 +51,7 @@
     <section class="video-section">
         <div class="wrapper">
             <div class="video">
-                <iframe src="https://www.youtube.com/embed/7uZovxOMhS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/T0ChguaN9Kk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </section>
@@ -1339,11 +1339,11 @@
                                 <a target="_blank" href="https://www.instagram.com/yahu_tahu.gg">
                                     <img src="media-icons/insta.svg" alt="IG">
                                 </a>
-                                <a target="_blank" href="https://www.twitter.com/yahu_tahu.gg">
+                                <a target="_blank" href="https://www.twitter.com/yahu_tahugg">
                                     <img src="media-icons/twt.svg" alt="TWT">
                                 </a>
                                 <a target="_blank" href="https://www.instagram.com/abangyahu.jpg">
-                                    <img src="media-icons/insta.svg" alt="IG">
+                                    <img src="media-icons/insta.svg" alt="IG2">
                                 </a>
                             </div>
                             <div class="name-contact">
@@ -1367,22 +1367,46 @@
         <div class="wrapper">
             <h2>Foto</h2>
             <div class="photos-container">
-                <div class="photos">
-                    <img src="photo-profile/sebastian_ari.jpeg" alt="">
-                    <p>test</p>
+                <div class="photos-content">
+                    <div class="photos">
+                        <img src="photo-profile/sebastian_ari.jpeg" alt="">
+                        <p>test</p>
+                    </div>
+                    <div class="photos">
+                        <img src="photo-profile/sebastian_ari.jpeg" alt="">
+                        <p>test</p>
+                    </div>
+                    <div class="photos">
+                        <img src="photo-profile/sebastian_ari.jpeg" alt="">
+                        <p>test</p>
+                    </div>
+                    <div class="photos">
+                        <img src="photo-profile/sebastian_ari.jpeg" alt="">
+                        <p>test</p>
+                    </div>
                 </div>
-                <div class="photos">
-                    <img src="photo-profile/sebastian_ari.jpeg" alt="">
-                    <p>test</p>
+                <div class="photos-content more">
+                    <div class="photos">
+                        <img src="photo-profile/sebastian_ari.jpeg" alt="">
+                        <p>test</p>
+                    </div>
+                    <div class="photos">
+                        <img src="photo-profile/sebastian_ari.jpeg" alt="">
+                        <p>test</p>
+                    </div>
+                    <div class="photos">
+                        <img src="photo-profile/sebastian_ari.jpeg" alt="">
+                        <p>test</p>
+                    </div>
+                    <div class="photos">
+                        <img src="photo-profile/sebastian_ari.jpeg" alt="">
+                        <p>test</p>
+                    </div>
                 </div>
-                <div class="photos">
-                    <img src="photo-profile/sebastian_ari.jpeg" alt="">
-                    <p>test</p>
-                </div>
-                <div class="photos">
-                    <img src="photo-profile/sebastian_ari.jpeg" alt="">
-                    <p>test</p>
-                </div>
+            </div>
+            <div class="photo-button">
+                <button id="more-photo">More Photo</button>
+                <button id="less-photo">Less Photo</button>
             </div>
         </div>
     </section>
@@ -1512,10 +1536,22 @@
                     <h3>2022</h3>
                     <div class="timeline-container">
                         <div class="date">
-                            TBC
+                            Januari
                         </div>
                         <div class="timeline">
-                            PTMT
+                            PTMT 100%
+                        </div>
+                        <div class="date">
+                            29 Januari
+                        </div>
+                        <div class="timeline">
+                            Persiapan Imlek (Tapi Batal)
+                        </div>
+                        <div class="date">
+                            TIMESKIP
+                        </div>
+                        <div class="timeline">
+                            PJJ HYBRID
                         </div>
                         <div class="date">
                             4 - 11 April
@@ -1712,9 +1748,25 @@
                 });
             };
         };
+
+        function resizeCheck () {
+            if (710 < window.innerWidth < 730) {
+                swiperWindow;
+            } else if (960 < window.innerWidth < 980) {
+                swiperWindow;
+            } else if (1270 < window.innerWidth < 1290) {
+                swiperWindow;
+            } else if (1640 < window.innerWidth < 1660) {
+                swiperWindow;
+            }  else if (2290 < window.innerWidth < 2310) {
+                swiperWindow;
+            };
+        };
+
         swiperWindow();
+        // resizeCheck();
         window.addEventListener("resize", swiperWindow);
-        window.addEventListener("resize", swiperWindow);
+        // window.addEventListener("resize", resizeCheck);
     </script>
 </body>
 </html>
