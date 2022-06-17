@@ -90,7 +90,7 @@ section.hero-section {
 .heroo h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 45px;
     margin: 0;
     margin-bottom: 10px;
 
@@ -115,7 +115,7 @@ section.hero-section {
 
 .heroo .img img {
     margin: 10px;
-    width: 100%;
+    width: 95%;
 }
 
 .hero .line {
@@ -318,8 +318,16 @@ section.photo-section .wrapper h2 {
     color: #563B2A;
 }
 
-.photo-button button#more-photo {
+.photo-button button#more-photo1 {
     display: block;
+}
+
+.photo-button button#more-photo2 {
+    display: none;
+}
+
+.photo-button button#more-photo3 {
+    display: none;
 }
 
 .photo-button button#less-photo {
@@ -415,7 +423,6 @@ footer p {
 }
 
 @media only screen and (max-width: 800px) {
-
     .wrapper {
         margin: 0 50px;
     }

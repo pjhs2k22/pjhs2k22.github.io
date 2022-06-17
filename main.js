@@ -20,18 +20,36 @@ scrosa.addEventListener("click", () => {
     window.alert("Snapchat : @chaocha06");
 });
 
-const morePhoto = document.getElementById("more-photo");
+const morePhotoOne = document.getElementById("more-photo1");
+const morePhotoTwo = document.getElementById("more-photo2");
+const morePhotoThree = document.getElementById("more-photo3");
 const lessPhoto = document.getElementById("less-photo");
-const photosMore = document.querySelector(".photos-content.more");
+const photosMoreOne = document.querySelector(".photos-content.more.one");
+const photosMoreTwo = document.querySelector(".photos-content.more.two");
+const photosMoreThree = document.querySelector(".photos-content.more.three");
 
-morePhoto.addEventListener("click", () => {
-    photosMore.style.display = "grid";
+morePhotoOne.addEventListener("click", () => {
+    photosMoreOne.style.display = "grid";
+    morePhotoTwo.style.display = "block";
+    morePhotoOne.style.display = "none";
+});
+
+morePhotoTwo.addEventListener("click", () => {
+    photosMoreTwo.style.display = "grid";
+    morePhotoThree.style.display = "block";
+    morePhotoTwo.style.display = "none";
+});
+
+morePhotoThree.addEventListener("click", () => {
+    photosMoreThree.style.display = "grid";
     lessPhoto.style.display = "block";
-    morePhoto.style.display = "none";
+    morePhotoThree.style.display = "none";
 });
 
 lessPhoto.addEventListener("click", () => {
-    photosMore.style.display = "none";
+    photosMoreTwo.style.display = "none";
+    photosMoreOne.style.display = "none";
+    photosMoreThree.style.display = "none";
     lessPhoto.style.display = "none";
-    morePhoto.style.display = "block";
+    morePhotoOne.style.display = "block";
 });
