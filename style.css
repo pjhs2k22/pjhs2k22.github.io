@@ -305,7 +305,8 @@ section.photo-section .wrapper h2 {
 }
 
 .photo-button button {
-    padding: 15px 200px;
+    padding: 15px 20px;
+    width: 70%;
     background: #DED6C8;
     border: 0;
     margin: 10px;
@@ -313,6 +314,7 @@ section.photo-section .wrapper h2 {
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     font-size: 16px;
+    text-align: center;
     color: #563B2A;
 }
 
@@ -472,7 +474,7 @@ footer p {
         font-size: 30px;
     }
 
-    .photos-container {
+    .photos-content {
         grid-template-columns: auto;
     }
 
