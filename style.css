@@ -53,6 +53,10 @@ nav .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 50px;
+}
+
+nav .logo a {
+    text-decoration: none;
     color: #F1F1F1;
 }
 
@@ -104,6 +108,12 @@ section.hero-section {
     margin: 0;
 
     color: #563B2A;
+}
+
+.heroo p a {
+    text-decoration: none;
+    color: #563B2A;
+    cursor: text;
 }
 
 .heroo .img {
@@ -224,21 +234,32 @@ section.profile-container .wrapper h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 20px;
+    margin-top: 5px;
 }
 
-/* .profile {
-    width: 1065px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-} */
-
-/* .profile .vline {
-    width: 10px;
-    height: 332px;
-    border-radius: 5px;
-    background: #BD9965;
-    margin: auto auto;
-} */
+.profile .card .name-contact .called {
+    margin-top: 5px;
+}
+.profile .card .name-contact .wanumber {
+    margin-top: 5px;
+}
+.profile .card .name-contact .hbd {
+    margin-top: 5px;
+}
+.profile .card .name-contact .aim {
+    margin-top: 5px;
+}
+.profile .card .name-contact .message {
+    margin-top: 5px;
+}
+.profile .card .name-contact .aword {
+    margin-top: 5px;
+}
+.profile .card .name-contact .subtitle {
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-weight: 400;
+}
 
 .swiper {
     width: 90%;
@@ -424,7 +445,7 @@ footer ul li a {
 footer p {
     margin: 10px 0;
     font-size: 13px;
-    opacity: 0.03;
+    opacity: 0.75;
 }
 
 @media only screen and (max-width: 1050px) {
