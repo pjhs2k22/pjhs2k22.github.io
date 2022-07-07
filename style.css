@@ -158,6 +158,7 @@ section.video-section {
 .video iframe {
     width: 100%;
     height: 567px;
+    z-index: 10;
 }
 
 section.profile-container {
@@ -265,6 +266,11 @@ section.profile-container .wrapper h2 {
     width: 90%;
     height: 100%;
     padding: 20px 10px;
+}
+
+.swiper-wrapper {
+    margin-bottom: 10px;
+    align-items: center;
 }
 
 .profile .card .media-icons .popoutsm button {
@@ -469,6 +475,7 @@ footer p {
 
     .wrapper h2 {
         font-size: 30px;
+        padding: 10px 0;
     }
 
     nav .logo {
@@ -546,6 +553,7 @@ footer p {
 
     .wrapper h2 {
         font-size: 23px;
+        padding: 5px 0;
     }
 
     .profile .card {
